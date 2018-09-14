@@ -1,4 +1,5 @@
-# Blockchain project
+
+ # Blockchain project
 This is the blockchain project by Cheuk Chan for Udacity nanodegree on Blockchain Engineer
 
  ## Getting started
@@ -28,9 +29,7 @@ If this is the first time you running this project, the response return should b
 ```"blockHeight": 0```
 This stated that you have never created a block yet.
 
-###Endpont
-There are 3 endpoints from this web service
-
+### Endpoint
  - Get http://localhost:3000/blockheights/
 	 ```This endpoint takes no parameter and it will return the current block height```
  - GET http://localhost:3000/blockheights/:height
@@ -41,6 +40,6 @@ There are 3 endpoints from this web service
 		```This endpoint will create a block with the payload *data*```
 
 		Example: 
-		```{
+		{
 		"data": "2312321"
-		}```
+		}
